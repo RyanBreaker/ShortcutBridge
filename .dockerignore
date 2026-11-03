@@ -1,0 +1,6 @@
+build
+.kotlin
+.git
+.env
+*.jfr
+README.md

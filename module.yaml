@@ -1,0 +1,25 @@
+product: jvm/app
+
+dependencies:
+  - io.ktor:ktor-server-core
+  - io.ktor:ktor-server-netty
+  - io.ktor:ktor-server-content-negotiation
+  - io.ktor:ktor-server-status-pages
+  - io.ktor:ktor-server-call-logging
+  - io.ktor:ktor-client-core
+  - io.ktor:ktor-client-cio
+  - io.ktor:ktor-client-content-negotiation
+  - io.ktor:ktor-serialization-kotlinx-json
+  - ch.qos.logback:logback-classic:1.5.32
+
+test-dependencies:
+  - io.ktor:ktor-server-test-host
+  - io.ktor:ktor-client-mock
+
+settings:
+  ktor: enabled
+  kotlin:
+    serialization: json
+  jvm:
+    jdk:
+      version: 25

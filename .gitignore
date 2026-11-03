@@ -1,0 +1,4 @@
+build/
+.kotlin/
+.env
+*.jfr
